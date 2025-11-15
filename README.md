@@ -15,9 +15,3 @@ Terraform · Docker · GitHub Desktop · VS Code · PowerShell · Azure · FinOp
 - Phase 2: Budgets + lifecycle
 - Phase 3: Budget Kill Switch (BKS)
 
-## Getting started
-1. Install Docker Desktop, VS Code, GitHub Desktop, Azure CLI.
-2. Clone with GitHub Desktop.
-3. Open in VS Code → “Reopen in Container”.
-4. Run `scripts/bootstrap-tfstate.ps1` (PowerShell host) to create remote state.
-5. `terraform init -backend-config=backend.hcl` inside `infra/platform`.
