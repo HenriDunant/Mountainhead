@@ -1,0 +1,17 @@
+# Commit LF line endings; tools can still check out whatever they want if configured
+* text=auto eol=lf
+
+# Enforce LF for our stack
+*.sh     text eol=lf
+*.ps1    text eol=lf
+*.tf     text eol=lf
+*.tfvars text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+Dockerfile text eol=lf
+
+# Binary (no diff)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.zip  binary
