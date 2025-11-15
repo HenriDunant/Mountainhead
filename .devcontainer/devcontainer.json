@@ -1,0 +1,26 @@
+{
+  "name": "finops-azure-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/devcontainers/features/terraform:1": { "version": "1.9.8" },
+    "ghcr.io/devcontainers/features/powershell:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "HashiCorp.terraform",
+        "ms-vscode.powershell",
+        "ms-azuretools.vscode-azurecli",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "postCreateCommand": "bash -lc 'terraform -version && az version && pwsh -v'"
+}
