@@ -86,3 +86,35 @@ variable "key_vault_sku_name" {
   }
 }
 
+# === Phase 2 inputs ===
+variable "monthly_budget_amount" {
+  type        = number
+  description = "Monthly budget amount for the subscription."
+  default     = 500
+}
+
+variable "budget_currency" {
+  type        = string
+  description = "Currency code for the budget."
+  default     = "THB"
+}
+
+variable "alert_email" {
+  type        = string
+  description = "Email to receive budget alerts."
+  default     = "toptanupat@gmail.com"
+}
+
+# Freeze policy assignment name (stable so Logic App can patch it)
+variable "freeze_policy_assignment_name" {
+  type        = string
+  description = "Name of the subscription policy assignment that implements the freeze switch."
+  default     = "freeze-switch-platform"
+}
+
+# Log/archive lifecycle policy knobs (days)
+variable "hot_to_cool_days"   { type = number, default = 30 }
+variable "cool_to_archive_days" { type = number, default = 90 }
+variable "delete_after_days"    { type = number, default = 180 }
+
+
