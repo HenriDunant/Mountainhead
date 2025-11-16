@@ -1,0 +1,5 @@
+# This is an example. The bootstrap script will create a real backend.hcl with your values.
+resource_group_name  = "rg-tfstate-shared"
+storage_account_name = "st12345678"
+container_name       = "tfstate"
+key                  = "platform.terraform.tfstate"
