@@ -1,9 +1,14 @@
 # Mountainhead
-Stand up a reproducible Azure platform that ships containerized apps, provisions infra with Terraform, and enforces cost controls by default—including a Budget Kill Switch (BKS) that safely scales down/pauses non-critical resources when monthly spend crosses thresholds.
+A reproducible Azure platform that ships containerized apps, provisions infra with Terraform, and enforces cost controls by default—including a Budget Kill Switch (BKS) that safely scales down/pauses non-critical resources when monthly spend crosses thresholds.
 
-This serves as accumulation of my knowledge from my collaborative experience in Cloud project with related functions from my professional career 
+A Terraform-driven Azure landing zone + container runtime with FinOps guardrails.
 
-Terraform-driven Azure landing zone + container runtime with FinOps guardrails.
+This serves as accumulation of my knowledge from my collaborative experience in Cloud project with related functions from my professional career. (Even though it's an indirect respondsibility, but hey)
+
+## Disclaimer
+This is not a "AI built this app in X minutes demo". What you see will probably burns your eyes out. But hey, I am trying to iron the kinks out and trying to do better day by day
+
+
 **No GitHub Actions**; GitHub Desktop + VS Code Dev Containers workflow.
 
 ## Stack
