@@ -8,9 +8,6 @@ This serves as accumulation of my knowledge from my collaborative experience in 
 ## Disclaimer
 This is not a "AI built this app in X minutes demo". What you see will probably burns your eyes out. But hey, I am trying to iron the kinks out and trying to do better day by day
 
-
-**No GitHub Actions**; GitHub Desktop + VS Code Dev Containers workflow.
-
 ## Stack
 Terraform · Docker · GitHub Desktop · VS Code · PowerShell · Azure · FinOps
 
