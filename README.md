@@ -14,6 +14,6 @@ Terraform · Docker · GitHub Desktop · VS Code · PowerShell · Azure · FinOp
 ## Phases
 - Phase 0: Devcontainer + remote tfstate + TF scaffold
 - Phase 1: Policy/ACR/KV/Logs
-- Phase 2: Budgets + lifecycle
+- Phase 2: Budgets + lifecycle (Current state)
 - Phase 3: Budget Kill Switch (BKS)
 
